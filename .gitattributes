@@ -1,0 +1,7 @@
+# Always use unix style line-endings
+* text auto
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.wasm binary
+*.woff2 binary
