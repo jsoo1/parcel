@@ -40,10 +40,6 @@ class ElmAsset extends Asset {
     }
 
     options.debug = !this.options.production;
-    if (this.options.minify) {
-      options.optimize = true;
-    }
-
     this.elmOpts = options;
   }
 
